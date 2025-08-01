@@ -22,6 +22,14 @@ rbxcloud = { github = "Sleitnick/rbxcloud", version = "0.17.0" }
 
 Next, run `foreman install` to install `rbxcloud`.
 
+### [Rokit](https://github.com/rojo-rbx/rokit)
+Run the `rokit add` command within your project directory. This will add `rbxcloud` to the project's `rokit.toml` file.
+```sh
+$ rokit add Sleitnick/rbxcloud@0.17.0
+```
+
+Next, run `rokit install` to install `rbxcloud`.
+
 ??? info "Legacy"
 	Aftman is preferred over Foreman. For more information, see the [Aftman](https://github.com/LPGhatguy/aftman) GitHub repository.
 
